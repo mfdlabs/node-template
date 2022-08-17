@@ -1,0 +1,57 @@
+name: Typescript Test
+
+on:
+  workflow_run:
+    workflows:
+      - "Typescript Build"
+    types:
+      - "completed"
+
+jobs:
+  test-linux:
+    name: Test Linux
+    if: "!contains(toJSON(github.event.commits.*.message), '[SKIP TEST]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v2
+
+      - name: Setup the node js environment with version 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Run the test-full script to update packages and test the project.
+        run: npm run test-full
+
+  test-windows:
+    name: Test Windows
+    if: "!contains(toJSON(github.event.commits.*.message), '[SKIP TEST]')"
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v2
+
+      - name: Setup the node js environment with version 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Run the test-full script to update packages and test the project.
+        run: npm run test-full
+
+  test-macos:
+    name: Test MacOS
+    if: "!contains(toJSON(github.event.commits.*.message), '[SKIP TEST]')"
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v2
+
+      - name: Setup the node js environment with version 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Run the test-full script to update packages and test the project.
+        run: npm run test-full
