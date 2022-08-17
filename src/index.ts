@@ -28,5 +28,5 @@
  * @returns {string} A hello world string
  */
 export function hello_world(): string {
-  return 'Hello, World?';
+  return 'Hello, World!';
 }
