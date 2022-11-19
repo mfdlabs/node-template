@@ -43,8 +43,8 @@ Please note that as this project is under MFDLABS, branch naming rules for this 
 >
 > If you can, try to also include Jira ticket IDs or backlog issue urls.
 > Example: <br />
-> PR Title: ***[BCKLOG-657](https://jira.dex2.vmminfra.dev/BCKLOG-657?from=gh)***: *Runtime fixture for possible crash exploit exposure through admin API.* <br />
-> Branch: ***[fix/security-ops/bcklog-657-potential-crash-exploit](https://git.vmminfra.dev/mfdlabs/backlog/tree/fix/security-ops/bcklog-657-potential-crash-exploit)***.
+> PR Title: ***[BCKLOG-657](https://jira.dex2.vmminfra.dev/browse/BCKLOG-657?from=gh)***: *Runtime fixture for possible crash exploit exposure through admin API.* <br />
+> Branch: ***[fix/security-ops/bcklog-657-potential-crash-exploit](https://github.vmminfra.dev/mfdlabs/backlog/tree/fix/security-ops/bcklog-657-potential-crash-exploit)***.
 > 
 > When you merge your PR into your chosen branch, do not delete the branch.
 >
