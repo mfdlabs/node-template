@@ -17,7 +17,7 @@
 /*
 	File Name: index.ts
 	Description: The main export point for this package.
-	Written by: MFDLABS Ops
+	Written by: JavaScript Squad
 */
 
 /**
