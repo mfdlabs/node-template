@@ -1,6 +1,6 @@
 {
-  "name": "@mfdlabs/nodejs-template",
-  "version": "1.0.0-alpha.1",
+  "name": "@mfdlabs/node-template",
+  "version": "1.0.0",
   "description": "A Node.js template that follows NJS-32551 contracts.",
   "main": "lib/index.js",
   "types": "lib/types",
@@ -17,24 +17,24 @@
     "publish-package": "npm run lint && npm run test && npm run build && npm publish --access public"
   },
   "keywords": [
-    "Template"
+    "template"
   ],
   "repository": {
     "type": "git",
-    "url": "git+github.com/mfdlabs/nodejs-template.git"
+    "url": "git+github.com/mfdlabs/node-template.git"
   },
-  "author": "MFDLABS Ops <ops@vmminfra.net>",
+  "author": "JavaScript Squad <javascript-dev-squad@vmminfra.net>",
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^28.1.8",
     "@types/node": "^18.11.10",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jsdoc": "^39.6.2",
+    "eslint-plugin-jsdoc": "^39.6.4",
     "jest": "^28.1.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.8.0",
     "ts-jest": "^28.0.4",
     "typescript": "^4.9.3"
   },
