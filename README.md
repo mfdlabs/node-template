@@ -1,10 +1,10 @@
-# @mfdlabs/node-template
+# @mfdlabs/template
 This is a template for all node-js packages created by MFDLABS.
 
 # Examples
 
 ```typescript
-import { hello_world } from '@mfdlabs/node-logging';
+import { hello_world } from '@mfdlabs/template';
 
 // Call the method
 hello_world();
